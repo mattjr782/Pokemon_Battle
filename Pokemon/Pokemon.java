@@ -69,6 +69,8 @@ public class Pokemon {
         return name;
     }
 
+    public void setName(String name){ this.name = name;}
+
     public int getLevel() {
         return level;
     }
@@ -92,6 +94,8 @@ public class Pokemon {
     public Attack[] getAttacks() {
         return attacks;
     }
+
+    public void setAttacks(Attack[] attacks){this.attacks = attacks;}
 
     public void adjustHP(int change){
         totalHP += change;
